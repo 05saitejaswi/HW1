@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Profile section styles */
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Links section styles */
+#links {
+    margin-top: 20px;
+}
+
+.zebra-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.zebra-table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.zebra-table .even-row {
+    background-color: #f2f2f2;
+}
+
+/* Interests section styles */
+#interests ul,
+#interests ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Nested lists section styles */
+#nested-lists {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.education,
+.job-history {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Quote section styles */
+.quote {
+    background-color: #ffd700; /* Gold color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* External links section styles */
+#external-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#external-links ul li {
+    margin-bottom: 10px;
+}
+
+/* Hover effect on links */
+a:hover {
+    color: #ff5733; /* Change to the color of your choice */
+}
+
+/* Style the text with "Georgia State, Computer Science, and 2 more words of your choice" in red and bold */
+span {
+    color: red;
+    font-weight: bold;
+}
