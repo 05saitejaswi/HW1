@@ -27,32 +27,17 @@ header {
     margin-top: 20px;
 }
 
-.zebra-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.zebra-table td {
-    padding: 8px;
-    text-align: center;
-}
-
-.zebra-table .even-row {
-    background-color: #f2f2f2;
-}
-
-/* Interests section styles */
-#interests ul,
-#interests ol {
-    list-style-type: none;
-    padding: 0;
-}
-
 /* Nested lists section styles */
 #nested-lists {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+.hobbies,
+.interests{
+    margin: auto;
+    display: block;
+    width: 25%;
 }
 
 .education,
@@ -60,7 +45,9 @@ header {
     flex: 1;
     padding: 10px;
 }
-
+li {
+    padding: 4px;
+}
 /* Quote section styles */
 .quote {
     background-color: #ffd700; /* Gold color */
@@ -87,4 +74,31 @@ a:hover {
 span {
     color: red;
     font-weight: bold;
+}
+.table {
+    margin: 20px auto;
+    
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+ol li {
+    font-size: 17px !important;
 }
